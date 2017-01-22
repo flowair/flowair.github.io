@@ -3,6 +3,13 @@
   
     
     <entry>
+      <title><![CDATA[Hexo+Git搭建静态博客]]></title>
+      <url>%2F2017%2F01%2F22%2Ftest%2F</url>
+      <content type="text"><![CDATA[#环境准备]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[测试]]></title>
       <url>%2F2017%2F01%2F16%2F%E6%B5%8B%E8%AF%95%2F</url>
       <content type="text"><![CDATA[############################# ############################]]></content>
