@@ -5,7 +5,7 @@
     <entry>
       <title><![CDATA[Hexo+Git搭建静态博客]]></title>
       <url>%2F2017%2F01%2F22%2Ftest%2F</url>
-      <content type="text"><![CDATA[环境准备首先安装Git、安装Hexo,]]></content>
+      <content type="text"><![CDATA[环境准备首先安装Git、安装Hexo,这里忽略安装 安装Hexo 主题样式 $ cd your-hexo-site $ git clone https://github.com/iissnan/hexo-theme-next themes/next]]></content>
     </entry>
 
     
