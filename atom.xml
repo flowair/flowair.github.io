@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-01-22T10:12:43.873Z</updated>
+  <updated>2017-01-22T10:16:03.721Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,10 +20,12 @@
     <link href="http://yoursite.com/2017/01/22/test/"/>
     <id>http://yoursite.com/2017/01/22/test/</id>
     <published>2017-01-22T08:44:37.000Z</published>
-    <updated>2017-01-22T10:12:43.873Z</updated>
+    <updated>2017-01-22T10:16:03.721Z</updated>
     
     <content type="html"><![CDATA[<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><h3 id="首先安装Git、安装Hexo-这里忽略安装"><a href="#首先安装Git、安装Hexo-这里忽略安装" class="headerlink" title="首先安装Git、安装Hexo,这里忽略安装"></a>首先<a href="http://www.cnblogs.com/vitah/p/3612473.html" target="_blank" rel="external">安装Git</a>、<a href="http://sanwen.net/a/bwimzoo.html" target="_blank" rel="external">安装Hexo</a>,这里忽略安装</h3><ul>
-<li>安装Hexo 主题样式<br>  $ cd your-hexo-site<br>  $ git clone <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">https://github.com/iissnan/hexo-theme-next</a> themes/next</li>
+<li>安装Hexo 主题样式 <pre><code>$ cd your-hexo-site
+$ git clone https://github.com/iissnan/hexo-theme-next themes/next
+</code></pre></li>
 </ul>
 ]]></content>
     
