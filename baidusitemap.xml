@@ -4,19 +4,19 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/01/22/test/</loc>
-    <lastmod>2017-01-22T10:16:03.721Z</lastmod>
+    <loc>http://yoursite.com/2017/02/13/sed/</loc>
+    <lastmod>2017-02-13T02:48:43.902Z</lastmod>
     <data>
         <display>
-        <title>Hexo+Git搭建静态博客</title>
-        <pubTime>2017-01-22T08:44:37.000Z</pubTime>
+        <title>sed</title>
+        <pubTime>2017-02-13T01:34:49.000Z</pubTime>
         
-        <tag>git</tag>
+        <tag>sed</tag>
          
          
            
              
-              <breadCrumb title="Git" url="http://yoursite.com/categories/Git/"/>
+              <breadCrumb title="Linux" url="http://yoursite.com/categories/Linux/"/>
           
         </display>
     </data>
@@ -25,34 +25,4 @@
     
     
     
-    
-  <url>
-    <loc>http://yoursite.com/2017/01/16/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2017-01-16T07:15:45.202Z</lastmod>
-    <data>
-        <display>
-        <title>测试</title>
-        <pubTime>2017-01-16T07:15:21.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/01/16/hello-world/</loc>
-    <lastmod>2017-01-16T06:31:33.134Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2017-01-16T05:13:13.025Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
 </urlset>

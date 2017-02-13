@@ -3,23 +3,9 @@
   
     
     <entry>
-      <title><![CDATA[Hexo+Git搭建静态博客]]></title>
-      <url>%2F2017%2F01%2F22%2Ftest%2F</url>
-      <content type="text"><![CDATA[环境准备首先安装Git、安装Hexo,这里忽略安装 安装Hexo 主题样式 $ cd your-hexo-site $ git clone https://github.com/iissnan/hexo-theme-next themes/next]]></content>
-    </entry>
-
-    
-    <entry>
-      <title><![CDATA[测试]]></title>
-      <url>%2F2017%2F01%2F16%2F%E6%B5%8B%E8%AF%95%2F</url>
-      <content type="text"><![CDATA[############################# ############################]]></content>
-    </entry>
-
-    
-    <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>%2F2017%2F01%2F16%2Fhello-world%2F</url>
-      <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+      <title><![CDATA[sed]]></title>
+      <url>%2F2017%2F02%2F13%2Fsed%2F</url>
+      <content type="text"><![CDATA[SedSed的基本用法Sed 是一个行编辑器，它可对文本文件和标准输入进行编辑。sed从文本的一个文本行或标准输入中读取数据，将其复制到缓冲区。然后读取命令行或脚本的第一个命令，对此命令要求的行号进行编辑，重复此过程，直到命令行或脚本中的所有命令都执行完成。 格式：sed [options] &apos;AddressCommand&apos; file .... options (选项) -n 静默模式，不再默认显示模式空间中的内容 -i 直接修改源文件 -e SCRIPT -e SCRIPT 可以同时执行多个脚本 -f /PATH/TO/SCRIPT sed -f /path/to/script file -r 使用扩展正则表达式Address (地址)1、StartLine,EndLine (从开始行到结束行)比如：sed ‘1,100’2、/RegExp/ (使用正则表达式)比如：/^root/ (比配一root开头的行)3、/pattern1/,/pattern2/从第一次被pattern1匹配到的行开始，至第二次被pattern2匹配到行结束，这中间所有的行。4、LineNumber (精确匹配某行)比如 sed ‘2d’ /etc/issue (匹配issue文件下的第2行)5、StartLine,+N从StartLine开始，向后的N行Command (命令) d 删除符合条件的行 如：sed ‘3d’ /etc/fstab p 显示符合条件的行 如：sed ‘4d’ /etc/fstab a\string 在指定的行后面追加新行,内容为string 如：sed ‘3a#这是一个注释’ /etc/fstab i\string 在指定的行前面添加新行，内容为string 如：sed ‘2i#这是添加的内容’ /etc/fstab r FILE 将指定的文件的内容添加至符合条件的行处 如：sed $r /etc/issue /etc/fstab w FILE 将地址指定范围内的内容另存到指定的文件中 如：sed ‘/root/w /tmp/root.txt’ /etc/fstab s/pattern/string/ 查找并替换，默认只替换每行中第一次被模式匹配到的字符串修饰符： g 全局替换 i 忽略字符大小写 s///==s@@@===s### (///可以使用其它的符号替代)后向引用后向引用：首先，将子表达式包含在( )中。最多包含9个子表达式然后，使用\digit digit可以是1－9，表示与先前第digit个子表达式匹配例子： (ab)(cd)[def]\2\1 abcdcdab、 abcdeeecdab、 abceddeefffcdab、…. (why).\1 :表示一行里重现两个why 后向引用在寻找重复字一级匹配引号时特别好用： ([“ ‘].*\1 :表示匹配以单引号或双引号括起来的字，例如”bar”或者‘foo’]]></content>
     </entry>
 
     
