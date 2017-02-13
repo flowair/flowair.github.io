@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/categories/Linux.html</loc>
+    
+    <lastmod>2017-02-13T03:00:44.710Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2017/02/13/sed/</loc>
     
     <lastmod>2017-02-13T02:48:43.902Z</lastmod>
