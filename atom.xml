@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-02-19T04:49:47.206Z</updated>
+  <updated>2017-02-19T05:02:11.486Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/02/13/sed/"/>
     <id>http://yoursite.com/2017/02/13/sed/</id>
     <published>2017-02-13T01:34:49.000Z</published>
-    <updated>2017-02-19T04:49:47.206Z</updated>
+    <updated>2017-02-19T05:02:11.486Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Sed的基本用法"><a href="#Sed的基本用法" class="headerlink" title="Sed的基本用法"></a>Sed的基本用法</h2><p><code>Sed 是一个行编辑器，它可对文本文件和标准输入进行编辑。sed从文本的一个文本行或标准输入中读取数据，将其复制到缓冲区。然后读取命令行或脚本的第一个命令，对此命令要求的行号进行编辑，重复此过程，直到命令行或脚本中的所有命令都执行完成。</code></p>
 <h2 id="格式："><a href="#格式：" class="headerlink" title="格式："></a>格式：</h2><pre><code>sed [options] &apos;AddressCommand&apos; file ....
@@ -58,7 +58,7 @@
 <pre><code>[root@bogon ~]# sed -r &apos;s/^[[:space:]]+#//g&apos; /tmp/inittab
 </code></pre><p>7、取出一个文件路径的目录名称;</p>
 <pre><code>[root@bogon bin]# pwd | xargs dirname
-</code></pre><p><img src="/images/sed/1.jpg" alt="取父目录" title="取父目录"></p>
+</code></pre><p><img src="/images/sed/1.JPG" alt="取父目录" title="取父目录"></p>
 ]]></content>
     
     <summary type="html">
